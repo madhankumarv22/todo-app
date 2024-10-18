@@ -1,0 +1,18 @@
+
+.how-to-use {
+  @apply mt-6 p-4 w-full bg-red-400 shadow-xl;
+  @apply bg-guide-todo bg-contain bg-center;
+}
+
+.how-to-use h2 {
+  @apply text-xl px-2 font-semibold text-transparent bg-clip-text text-black bg-gradient-to-tr from-purple-600 to-pink-500 mb-2;
+}
+
+.how-to-use ol {
+  @apply list-decimal list-inside text-black  p-4;
+  @apply bg-guide-todo2 bg-contain bg-center;
+}
+
+.how-to-use li {
+  @apply mb-2 bg-gradient-to-r from-purple-200 to-pink-200 p-2 rounded-md shadow-sm;
+}
